@@ -1,8 +1,8 @@
 {
-  "name": "ERFAN-MD",
+  "name": "D",
   "description": "Javascript WhatsApp bot made by ERFAN-MD",
   "logo": "https://files.catbox.moe/lbf3y9.jpg",
-  "keywords": ["ERFAN-BOT"],
+  "keywords": ["MINI-BOT"],
   "success_url": "/",
   "stack": "container",
   
