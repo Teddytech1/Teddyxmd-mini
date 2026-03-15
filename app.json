@@ -1,18 +1,27 @@
 {
-  "name": "♥️GOLD MD PAIR QR♥️",
-  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
-  "logo": "https://i.ibb.co/wspzc9t/IMG-20240328-WA0000.jpg",
-  "repository": "https://github.com/popkidmd/POPKID-MD",
-  "keywords": ["@popkidmd"],
-  "success_url": "/", 
-  "buildpacks": [
-    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
-  ],
-  "env": {      
-    "MESSAGE": {
-      "description": "Msg Attached With Session ID",
-      "value": "🔰 BY || POPKID 🔰",
-      "required": false 
+  "name": "ERFAN-MD",
+  "description": "Javascript WhatsApp bot made by ERFAN-MD",
+  "logo": "https://files.catbox.moe/lbf3y9.jpg",
+  "keywords": ["ERFAN-BOT"],
+  "success_url": "/",
+  "stack": "container",
+  
+  "env": {
+    "DB_NAME": {
+      "description": "MongoDB Database Name",
+      "required": true
+    },
+    "MONGODB_URL": {
+      "description": "MongoDB connection URL",
+      "value": "mongodb+srv://sana:jawadsaan@cluster0.39ezrfs.mongodb.net/?appName=Cluster0",
+      "required": true
     }
-  }
+  },
+
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24"
 }
